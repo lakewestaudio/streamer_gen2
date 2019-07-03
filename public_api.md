@@ -1,8 +1,10 @@
 # Serial Communication API for LakeWest Mini Streamer
 
-get command returns push
-set command returns push to confirm new value 
-push command to Mini Streamer is not a valid cmd, its only pushed back by Mini Streamer to return/confirm set value.
+-get command returns push
+
+-set command returns push to confirm new value 
+
+-push command to Mini Streamer is not a valid cmd, its only pushed back by Mini Streamer to return/confirm set value.
 
 Terms definition:
 Streamer Software - any software running on LakeWest Mini Streamer hardware using this open protocol
