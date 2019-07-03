@@ -111,7 +111,7 @@ Bootloader mode has to be switched off by user presing "USB" toggle button on th
 [pushWatchdog]{timeout:0}
 ```
 
-Watchdog, expects pulse on GPIO34 to reset its timer, about 1ms pulse is ok. By default disabled, shall be enabled when software gets to the stage where it can reliably generate pulses. Can be disabled for task like memory update etc. 
+Watchdog, expects pulse on GPIO34 to reset its timer, about 1ms pulse width is ok (probably much less). By default disabled, shall be enabled when software gets to the stage where it can reliably generate pulses. Can be disabled for task like memory update etc. 
 
 timeout:
 	watchdig timeout in seconds, maximum 30s, if exceeded, 30s is set and timer activated
